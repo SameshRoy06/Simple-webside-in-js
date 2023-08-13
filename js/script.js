@@ -70,4 +70,15 @@ ramRamBtnDec.addEventListener('click', function(){
     ramRamTypeValue -= 1
     ramRamType.innerText = ramRamTypeValue;
 
+
 })
+            //   reset
+const resetBtn = document.getElementById('btn-reset');
+resetBtn.addEventListener('click', function(){
+    zeroType.innerText = 0
+    ramType.innerText = 0
+    ramRamType.innerText = 0
+    zeroTypeValue = 0
+    ramTypeValue = 0
+    ramRamTypeValue = 0
+});
